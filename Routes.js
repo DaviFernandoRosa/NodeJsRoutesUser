@@ -5,7 +5,6 @@ const Usuario = require('./src/Controller/usuarios.controllers')
 
 routes.get('/',Usuario.index);
 
-
 // Rotas de Usuários
 routes.post('/api/usuarios',Usuario.create);
 routes.get('/api/usuarios',Usuario.index);
